@@ -22,4 +22,8 @@ public class SpringS3MinioApplication {
 		};
 	}
 
+	@Bean 
+	public Init init() {
+		return new Init();
+	}
 }
